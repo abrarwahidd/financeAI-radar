@@ -19,7 +19,7 @@ Sebuah aplikasi berbasis *Agentic Workflow* untuk mengekstrak, memfilter, dan me
 * Sistem operasi Windows/Linux/WSL.
 * Terinstal `uv` package manager.
 * Terinstal **Ollama** dengan model `llama3.2` yang sudah diunduh (`ollama pull llama3.2`) dan berjalan di latar belakang.
-* Kunci API Google AI Studio.
+* API Key Google AI Studio.
 
 ## 💻 Cara Instalasi & Menjalankan
 
@@ -34,8 +34,10 @@ Sebuah aplikasi berbasis *Agentic Workflow* untuk mengekstrak, memfilter, dan me
     Buat file .env di root folder, dan masukkan GEMINI_API_KEY  
     ```bash
     GOOGLE_API_KEY=Masukkan_Kunci_API_Gemini_Disini
-4. **Jalankan semua cell nya**
-5. **Akses url yang dihasilkan cell terakhir, misal:**  
+4. **Jalankan perintah berikut:**  
+    ```bash
+    uv run app.py
+5. **Akses url yang dihasilkan, misal:**  
     ```Plaintext
     http://localhost:0000
 
